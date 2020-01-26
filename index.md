@@ -40,5 +40,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 #### Grep
 #### Sed
+- print 
+    sed ' p ' /etc/passwd
+    sed -n ' p ' /etc/passwd # n - supress standart input
+    sed -n '1,3 p ' /etc/passwd # range
+    sed -n '/^root/ p ' /etc/passwd # pattern
+- substitute 
+    sed ' range  s/<string>/<replacement>/ ' /etc/passwd    
+    
+- append, insert, delete
 
 
