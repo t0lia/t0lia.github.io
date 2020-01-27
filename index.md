@@ -67,3 +67,4 @@ sed ' /^server\s[0-9]\.ubuntu/ d' /etc/ntp.conf' -  delete
     sed 's/^/ls -l /e listoffile.txt'
     
 [Link](/about.html)
+[Link](/linux/script.html)
