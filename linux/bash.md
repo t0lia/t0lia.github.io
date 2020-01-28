@@ -1,7 +1,6 @@
-# Useful links
+# Linux scripts
 
-[bash](/linux/bash.html)
-[Grep, sed, awk](/linux/grep.html)
+- [Home](/)
 
 ## Welcome to GitHub Pages
 
