@@ -21,6 +21,33 @@ function fancyAlert(arg) {
   }
 }
 ```
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Statements</h2>
+
+<p>In HTML, JavaScript statements are executed by the browser.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello Dolly.";
+</script>
+
+</body>
+</html>
+```
+
+```bash
+#!/bin/bash
+# our comment is here
+echo "The current directory is:"
+pwd
+echo "The user logged in is:"
+whoami
+```
 
 ~~this~~
 
