@@ -55,7 +55,8 @@ Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Ornare mas
 Risus nullam eget felis eget nunc lobortis mattis. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Euismod quis viverra nibh cras pulvinar mattis. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Elementum sagittis vitae et leo duis. Nascetur ridiculus mus mauris vitae ultricies. Id diam vel quam elementum. Quam adipiscing vitae proin sagittis. Et tortor consequat id porta nibh venenatis. Eu mi bibendum neque egestas. Accumsan sit amet nulla facilisi morbi. Tortor consequat id porta nibh. Commodo odio aenean sed adipiscing diam donec. Placerat duis ultricies lacus sed turpis tincidunt id. Massa enim nec dui nunc mattis enim ut tellus.
 
 
-# tables
+# Tables
+
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
@@ -68,6 +69,7 @@ Content in the first column | Content in the second column
 ￼ this is an incomplete item
 
 # Js code
+
 ```javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -77,6 +79,7 @@ function fancyAlert(arg) {
 ```
 
 # Html code
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -97,6 +100,7 @@ document.getElementById("demo").innerHTML = "Hello Dolly.";
 ```
 
 # Bash code
+
 ```bash
 #!/bin/bash
 # our comment is here
@@ -117,6 +121,7 @@ As Kanye West said:
 > the present is our past.
 
 # Lists
+
 1. Item 1
 1. Item 2
 1. Item 3
