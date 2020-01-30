@@ -1,4 +1,4 @@
-# It's me
+# Markdown examples
 - [Home](/)
 
 # some markdown heading
@@ -70,4 +70,4 @@ As Kanye West said:
   * Item 2a
   * Item 2b
 
-[links](#some-markdown-heading)
+[some markdown heading](#some-markdown-heading)
