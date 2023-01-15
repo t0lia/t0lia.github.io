@@ -1,0 +1,41 @@
+body {
+
+    font: 12px/1.5 Arial, sans-serif;
+}
+
+.container {
+    /*align*/
+
+    margin: 0 auto;
+    padding: 0px;
+    width: 750px;
+    /*background*/
+    background-color: #eee;
+    /*height 100 %*/
+
+    font: 12px/1.5 Arial, sans-serif;
+}
+
+.blog {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.projects {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.link-item {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+
+}
