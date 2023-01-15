@@ -1,0 +1,20 @@
+---
+- hosts: apozdniakov
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: pull from git
+      git:
+        repo: 'https://github.com/t0lia/t0lia.github.io.git'
+        dest: /home/wheel/t0lia.github.io
+        update: yes
+        version: master
+
+    - name: print directory
+      shell: ls -l /home/wheel/t0lia.github.io
+      register: result
+
+    - name: show result
+      debug:
+        msg: "{{ result.stdout_lines }}"

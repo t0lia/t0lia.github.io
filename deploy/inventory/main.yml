@@ -1,0 +1,8 @@
+---
+
+all:
+  children:
+    my:
+      hosts:
+        apozdniakov:
+          ansible_host: apozdniakov.com
