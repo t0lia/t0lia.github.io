@@ -25,7 +25,7 @@ body {
 .projects {
     margin: 10px 0 10px 0;
     padding: 10px;
-    background-color: #ddd;
+    height: 600px;
 }
 
 .link-item {
@@ -37,5 +37,5 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
-
+    background-color: #ddd;
 }
