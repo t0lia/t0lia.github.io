@@ -1,7 +1,16 @@
 body {
 
     font: 12px/1.5 Arial, sans-serif;
+    background-color: #f1faeeff;
+    color: #1d3557ff;
 }
+
+
+/*--imperial-red: #e63946ff;*/
+/*--honeydew: #f1faeeff;*/
+/*--powder-blue: #a8dadcff;*/
+/*--celadon-blue: #457b9dff;*/
+/*--prussian-blue: #1d3557ff;*/
 
 .container {
     /*align*/
@@ -47,4 +56,48 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
     background-color: #ddd;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-section {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-section {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 33%;
+
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px ) {
+    .flex-item {
+        flex: 100%;
+    }
+}
+
+.main-section {
+    font-size: 10px;
+    background-color: #457b9dff;;
+    color: #f1faeeff;
 }
